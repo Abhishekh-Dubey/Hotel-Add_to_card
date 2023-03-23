@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add To Cart - Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <div class = "container">
+        <nav class = "navbar">
+          
+          <button type = "button" class = "navbar-toggler">
+          </button>
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info"></span>
+            </button>
+            <div class = "cart-container">
+              <div class = "cart-list">
+              </div>
+
+
+              <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container" onsubmit="submitForm(event)">
+                   
+                    <i class="fa fa-times icon" aria-hidden="true" onclick="closeForm()"></i>
+               
+                  <h1>Customer Details</h1>
+              
+                  <label for="email"><b>Full name:</b></label>
+                  <input type="text" placeholder="Your Full name.." name="Fname" required>
+              
+                  <label for="psw"><b>Phone number:</b></label>
+                  <input type="tel" placeholder="Your Phone No.." name="phone" required>
+                  
+                  <label for="email"><b>Email</b></label>
+                  <input type="email" placeholder="Your Email Id name.."  name="email" required>
+              
+                  <button type="submit" class="btn">Submit</button>
+                  
+                </form>
+              </div>
+                   <!-- <type = "button" class = "cart-item-del-btn1"></button> -->
+              
+                
+                    <button  class = "cart-total" onclick="openForm()">
+                      <h3>Total: $</h3>
+                      <span id = "cart-total-value"></span>
+                    </button>
+               
+            </div>
+          </div>
+        </nav>
+      
+      </div>
+    </header>
+ 
+    <section class = "products">
+      <div class = "container">
+        <h2>Hotel Room</h2>
+        <div class = "product-list">
+         
+        </div>
+      </div>
+    </section>
+    
+  
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

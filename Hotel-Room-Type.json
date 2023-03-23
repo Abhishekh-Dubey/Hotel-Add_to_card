@@ -1,0 +1,49 @@
+{
+  "Hotel-Room-Type": [
+    {
+      "id": 1,
+      "name": "Standard room",
+      "imgSrc": "./image/img1.jpg",
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "name": "Premium room",
+      "imgSrc": "./image/img5.jpg",
+      "price": 5000
+    },
+    {
+      "id": 1,
+      "name": "Standard room",
+      "imgSrc": "./image/img1.jpg",
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "name": "Premium room",
+      "imgSrc": "./image/img5.jpg",
+      "price": 5000
+    }
+  ],
+  "Customer_Detials": [
+    {
+      "id": 1,
+      "Name": "abhishekh",
+      "Email_Id": "./image/img1.jpg",
+      "Phone_No": 1500,
+      "Room_Type": "Premium room",
+      "Total_Amount": 6000
+    },
+    {
+      "Name": "abhishekh dubey",
+      "Email_Id": "+917766077711",
+      "Phone_No": "avsk.dby@gmail.com",
+      "Room_Type": [
+        "Premium room",
+        "Standard room"
+      ],
+      "Total_Amount": 6500,
+      "id": 2
+    }
+  ]
+}
